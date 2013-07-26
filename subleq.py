@@ -13,7 +13,5 @@ def execute_file(file_name):
     p = SubleqParser()
     SubleqVM.execute(p.parse(open(file_name).read()))
 
-execute_file("input.subleq")
-
 if len(argv) > 1:
     execute_file(argv[1])
