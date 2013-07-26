@@ -26,9 +26,25 @@ Contents Overview
 Basic Examples:
 -----------
 Create a file called input.subleq containing:
+    
+    # Hello world!
+    # Taken from http://mazonka.com/subleq/
 
-    z z -2
-    . z:0
+    # output *p; 
+    a; p Z; Z a; Z
+    a:0 -2
+
+    # p++
+    m1 p;
+
+    #check if p<E
+    a; E Z; Z a; Z;
+    p a -2
+
+    Z Z -2
+
+    . p:H Z:0 m1:-1
+    . H: "Hello, World!\n" E:E
 
 Make sure subleq.py, subleq_parser.py, and subleq_vm.py are in the same folder, then in the console type:
     ```
