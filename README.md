@@ -27,11 +27,9 @@ Basic Examples:
 -----------
 Create a file called input.subleq containing:
 
-    ```
-    z z -2\n
-    . z:0\n
-    ```
-    
+    z z -2
+    . z:0
+
 Make sure subleq.py, subleq_parser.py, and subleq_vm.py are in the same folder, then in the console type:
     ```
     python subleq.py input.subleq
