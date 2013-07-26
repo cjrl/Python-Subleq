@@ -15,8 +15,9 @@ What is Subleq?
     subtracts two places in memory and if the difference is greater than zero it goes 
     to the next instruction otherwise it jumps to a specific place in memory.
 
-    It is interesting because this single operation allows the language to be turning complete. It 
-    is possible to emulate many higher level instructions with just a few subleq instructions. See the Wikipedia article for the emulations.
+    It is interesting because this single operation allows the language to be turning 
+    complete. It is possible to emulate many higher level instructions with just a 
+    few subleq instructions. See the Wikipedia article for the emulations.
 
     These are some really great resources to learn more: 
         http://en.wikipedia.org/wiki/One_instruction_set_computer
@@ -56,4 +57,5 @@ with the following changes:
     (-1) -> -2
     z z 0 -> z z -2
 
-Please let me know of any bugs and feel free to ask if you have any questions - Chris Lloyd
+Please let me know of any bugs and feel free to ask if you have any questions
+ - Chris Lloyd
