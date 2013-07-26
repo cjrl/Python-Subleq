@@ -2,6 +2,7 @@ Python Subleq Interpreter
 ==========================
 
 Written by Chris Lloyd in Python 3.3
+
 Released under the GNU General Public License
 
 What is Subleq?
@@ -21,3 +22,11 @@ Contents Overview
 - SubleqParser: Takes subleq input and outputs integer array for the virtual machine
 - SubleqVM: Interpreters output from SubleqParser 
 - subleq.py: Provides command-line interface for interpreting subleq code
+
+Basic Examples:
+-----------
+Create a file called input.subleq containing:
+    z z -2
+    . z:0
+Make sure subleq.py, subleq_parser.py, and subleq_vm.py are in the same folder, then in the console type:
+    python subleq.py input.subleq
